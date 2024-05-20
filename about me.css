@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #3b3b3b;
+}
+
+li,
+a,
+button {
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+}
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+	background-color: #3b3b3b;
+}
+.logo-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: auto;
+}
+.logo {
+	width: 250px;
+	height: auto;
+	cursor: pointer;
+}
+.links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+.links li a {
+	transition: all 0.3s ease 0s;
+}
+.links li a:hover {
+	color: darkcyan;
+}
+button {
+	padding: 10px 25px;
+	background-color: #008b8b;
+	border: none;
+	border-radius: 45px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+button:hover {
+	background-color: darkslategray;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	font-family: "Nunito", sans-serif;
+}
+.index-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.intro {
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: content;
+	text-align: center;
+}
+
+.info {
+	font-size: 90px;
+	color: white;
+}
+
+/* About section*/
+
+.about {
+	width: 100%;
+	padding: 60px 0;
+	background-color: #3b3b3b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 60px;
+}
+.about-foto img {
+	width: 310px;
+}
+.about-text {
+	flex-basis: 450px;
+	font-family: "Montserrat", sans-serif;
+	line-height: 20px;
+}
+.about-text h1 {
+	font-size: 30px;
+	font-weight: bolder;
+	padding-bottom: 20px;
+}
+.about-text a {
+	padding: 10px 25px;
+	background-color: #008b8b;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin-top: 20px;
+}
+.about-text a:hover {
+	background-color: darkslategray;
+}
+.about-link {
+	display: flex;
+}
+
+/* end this page */
+
+/* Portfolio section*/
+
+.portfolio {
+	width: 100%;
+	padding: 60px 0;
+	background-color: #3b3b3b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 60px;
+}
+.portfolio-foto img {
+	width: 310px;
+}
+.portfolio-text {
+	flex-basis: 450px;
+	font-family: "Montserrat", sans-serif;
+	line-height: 20px;
+}
+.portfolio h1 {
+	font-size: 30px;
+	font-weight: bolder;
+	padding-bottom: 20px;
+}
+/* end this page */
+
+/* Hobbies section*/
+
+.hobbies {
+	width: 100%;
+	padding: 60px 0;
+	background-color: #3b3b3b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 60px;
+}
+.hobbies-foto img {
+	width: 310px;
+}
+.hobbies-text {
+	flex-basis: 450px;
+	font-family: "Montserrat", sans-serif;
+	line-height: 20px;
+}
+.hobbies h1 {
+	font-size: 30px;
+	font-weight: bolder;
+	padding-bottom: 20px;
+}
+/* end this page */
+
+/* Contact section*/
+
+.contact {
+	width: 100%;
+	padding: 60px 0;
+	background-color: #3b3b3b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 60px;
+}
+.contact-foto img {
+	width: 310px;
+}
+.contact-text {
+	flex-basis: 450px;
+	font-family: "Montserrat", sans-serif;
+	line-height: 20px;
+}
+.contact h1 {
+	font-size: 30px;
+	font-weight: bolder;
+	padding-bottom: 20px;
+}
